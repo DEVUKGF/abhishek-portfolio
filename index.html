@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Upadhayay Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/415b3b224e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            
+            <nav>
+                
+                <img src="Image/web-developer.png"  width="200px" class="logo">
+                
+               <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"> </i>
+
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+            <h1>Hi,I'm <span> Abhishek Upadhayay  </span> <br> from Bihar</h1>
+            </div>
+        </div>
+    </div>
+    <!-------------About------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Image/ab1.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p><b>“Hello! I’m Abhishek Upadhaya, a passionate Java and web developer eager to start my professional journey in software development.Currently pursuing a Bachelor's degree, in the 7th semester from MCKV Institute of Engineering, where I honed my skills in both backend and frontend development. I’ve also gained experience in web development, working with HTML, CSS, and JavaScript to create dynamic and responsive web applications”</b></p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li> <span>Web development</span><br>Designing Web </li>
+                            <li> <span>App Development</span><br>Building Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li> <span>2023 -  Current</span><br>web-developer.</li>
+                            <li> <span>2021 - 2025</span><br>B-tech in CSE</li>
+                        </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li> <span>2021-2025</span><br>B-tech from MCKV institue of engineering</li>
+                        <li> <span>2019-2021</span><br>S.T.S.M.COLLEGE,PANWARI, BHOJPUR</li>
+                        <li> <span>2019</span><br>FIITJEE World School Dilsukhnagar</li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+    <!------Services------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Developed a responsive and user-friendly website with a focus on performance, security, and seamless navigation. Integrated features like dynamic content, secure payment systems, and an intuitive admin panel for easy content management.</p>
+                    <a href="#"> Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A velit aliquam sequi quod fugiat. Officiis!</p>
+                    <a href="#"> Learn more</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+<!-------------portfoliio------->
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Image/wrk1.jpeg">
+                <div class="layer">
+                    <h3>Codeing</h3>
+                    <p>Skilled in writing clean, efficient code in JavaScript, and java  . Experienced in building scalable applications and solving complex problems through effective algorithm design. </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                </div>
+                </div>
+                <div class="work">
+                    <img src="Image/music app.jpg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Created a basic music app that allows users to stream songs and create playlists. Focused on user-friendly design and essential features for a seamless listening experience.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    
+                    </div>
+                    </div>
+                    <div class="work">
+                        <img src="Image/wrk3.jpg">
+                        <div class="layer">
+                            <h3>Online shoping App</h3>
+                            <p> The app enhances the user experience with seamless browsing, personalized wishlists, and push notifications. </p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        
+                        </div>
+                        </div>
+
+                
+
+            </div>
+
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+
+</div>
+<!------------------------- Contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>abhihero919@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>7488079755</p>
+                <div class="social-icons">
+                  <a href="https://www.facebook.com/profile.php?id=61552006707201"><i class="fab fa-facebook"></i></a>
+                  <a href="https://x.com/AbhishekUp6659?t=GogD16sBEkud3ov9O2hqvA&s=09"><i class="fab fa-twitter-square"></i></a>
+                  <a href="https://www.instagram.com/_night_devil___?igsh=MTZsdDY5ZzR6dmtuMw=="><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/abhishek-upadhyay-12a634224/"<i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="file:///C:/Users/Abhishek%20upadhaya/OneDrive/Desktop/project1/Abhishek%20upadhayaya%20Resume.pdf" download class=" btn btn2" target="-blank">Download CV</a>
+            </div>
+            <div class="contact-right"></div>
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit </button>
+            </form>
+        </div>
+
+    </div>
+    <div class="copyright">
+        <p>Copyright © upadhayajii. <i class="fas fa-heart"></i></p>
+    </div>
+</div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+               tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right="0";
+
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
+
+        }
+
+    </script>
+    
+</body>
+</html>
